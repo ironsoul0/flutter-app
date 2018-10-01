@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("List of Products"),
+          title: Text("Products"),
         ),
         body: ProductManager("Something tasty"),
       ),
